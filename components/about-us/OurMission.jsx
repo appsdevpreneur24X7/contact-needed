@@ -20,7 +20,7 @@ const OurMission = () => {
 
   return (
     <>
-      <div className="col-lg-8 col-xl-7">
+      <div className="col-lg-12">
         <div className="about_content">
           <p className="large">
             <h2>Unlocking the Hidden Gems: Finding Incredible Classifieds Online</h2>
@@ -31,17 +31,6 @@ const OurMission = () => {
           Here, we delve into some of the most remarkable stories that have emerged from the realm of online advertisements, 
           showcasing the unexpected surprises that await those who browse these digital marketplaces.
           </p>
-          <p>
-          While the stories shared inspire dreams of incredible finds, success in navigating online classifieds often requires a blend of diligence, 
-          research, and sometimes, sheer luck. Here are some strategies to optimize your online treasure hunt:
-
-          Frequent Visits: Regularly browse listings to catch new postings before they're snapped up by others.
-
-          Keyword Magic: Use specific and varied keywords related to what you're searching for. This approach can unveil hidden gems that others might overlook.
-
-          Patience Pays: Great finds don't come overnight. Patience and persistence in your search can eventually lead to rewarding discoveries.
-          </p>
-
           <ul className="ab_counting">
             {missionContent.map((item) => (
               <li className="list-inline-item" key={item.id}>
@@ -62,7 +51,7 @@ const OurMission = () => {
       </div>
       {/* End .col */}
 
-      <div className="col-lg-4 col-xl-5">
+      {/* <div className="col-lg-4 col-xl-5">
         <div className="about_thumb">
           <Image
             width={461}
@@ -74,7 +63,7 @@ const OurMission = () => {
           />
           <PopupVideo />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

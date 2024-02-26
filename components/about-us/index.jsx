@@ -10,7 +10,7 @@ import Testimonial from "../home-7/Testimonial";
 import BreadCrumbBanner from "./BreadCrumbBanner";
 import Team from "./Team";
 import OurMission from "./OurMission";
-
+import TextAnimationContent from "./TextAnimationContent";
 const index = () => {
   return (
     <>
@@ -30,11 +30,46 @@ const index = () => {
       <section className="about-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="main-title text-center">
-                <h2 className="mt0">Our Mission is to share the Contact Needed for you</h2>
+              <h1 style={{
+                    fontSize : "3.5rem",
+                    // fontFamily : "montserrat",
+                    fontWeight : '600',
+                    background: `linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)`, 
+                    WebkitBackgroundClip:'text',
+                    WebkitTextFillColor:`transparent`
+                }}>Our Mission ...</h1>
+                <h1 className="mt0" style={{
+                    fontSize : "2.5rem",
+                    background: `linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)`, 
+                    WebkitBackgroundClip:'text',
+                    WebkitTextFillColor:`transparent`
+                }}>
+                <TextAnimationContent/>
+                </h1>
               </div>
             </div>
+            {/* <div className="col-lg-6">
+              <div className="main-title text-center">
+              <h1 style={{
+                    fontSize : "3.5rem",
+                    // fontFamily : "montserrat",
+                    fontWeight : '600',
+                    background: `linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)`, 
+                    WebkitBackgroundClip:'text',
+                    WebkitTextFillColor:`transparent`
+                }}>Our Mission ...</h1>
+                <h1 className="mt0" style={{
+                    fontSize : "2.5rem",
+                    background: `linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)`, 
+                    WebkitBackgroundClip:'text',
+                    WebkitTextFillColor:`transparent`
+                }}>
+                <TextAnimationContent/>
+                </h1>
+              </div>
+            </div> */}
           </div>
           {/* End .row */}
 

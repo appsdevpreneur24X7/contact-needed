@@ -4,7 +4,7 @@ const CopyrightFooter = () => {
   const menuItems = [
     { id: 1, name: "Home", routeLink: "/" },
     { id: 2, name: "Listing", routeLink: "/listing-grid-v3" },
-    { id: 3, name: "CLassified", routeLink: "/listing-grid-v4" },
+    { id: 3, name: "Classifieds", routeLink: "/listing-grid-v4" },
     { id: 4, name: "About Us", routeLink: "/about-us" },
     { id: 5, name: "Contact", routeLink: "/contact" },
   ];
