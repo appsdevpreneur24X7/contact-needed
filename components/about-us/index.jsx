@@ -34,7 +34,7 @@ const index = () => {
               <div className="main-title text-center">
               <h1 style={{
                     fontSize : "3.5rem",
-                    // fontFamily : "montserrat",
+                    // fontFamily : "poppins",
                     fontWeight : '600',
                     background: `linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)`, 
                     WebkitBackgroundClip:'text',
