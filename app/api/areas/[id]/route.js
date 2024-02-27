@@ -5,10 +5,10 @@ import { NextResponse } from "next/server";
 export async function PUT(request, { params }) {
   console.log('AREA : PUT getting Executed  ');
   const { id } = params;
-  const { name } = await request.json();
-  console.log('name ', name );
+  const { name , city } = await request.json();
+  console.log('name ', name  , 'city ', city);
   await connectDb();
-  await Area.findByIdAndUpdate(id, { name });
+  await Area.findByIdAndUpdate(id, { name , city });
   return NextResponse.json({ message: "Area updated" }, { status: 200 });
 } 
 

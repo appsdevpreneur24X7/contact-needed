@@ -3,10 +3,10 @@ import Vendor from "@/models/vendor.js";
 import { NextResponse } from "next/server";
 
 export async function POST(request) { 
-  const { name, category , city, area } = await request.json();
-  console.log('Vendor : POST Getting Exec', name, category , city, area );
+  const { name, description , category , city, area } = await request.json();
+  console.log('Vendor : POST Getting Exec', name, description , category , city, area );
   await connectDb();
-  await Vendor.create({ name, category , city, area });
+  await Vendor.create({ name, description, category , city, area });
   return NextResponse.json({ message: "Vendor Created" }, { status: 201 });
 }
 

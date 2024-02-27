@@ -3,7 +3,7 @@ import Area from "@/models/area.js";
 import { NextResponse } from "next/server";
 
 export async function POST(request) { 
-  const { name } = await request.json();
+  const { name ,city } = await request.json();
   console.log('AREA : POST Getting Exec', name );
   await connectDb();
   await Area.create({ name , city });

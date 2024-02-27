@@ -14,6 +14,6 @@ const areaSchema = mongoose.Schema(
   }
 );
 
-const Area = mongoose.model("Area", areaSchema);
+const Area = mongoose.models.Area || mongoose.model('Area', areaSchema);
 
 export default Area;
