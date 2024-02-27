@@ -19,7 +19,7 @@ const index = () => {
       <PopupSignInUp />
 
       {/* <!-- Inner Page Breadcrumb --> */}
-      {/* <BreadCrumbBanner /> */}
+      <BreadCrumbBanner />
 
       {/* <!-- About Text Content --> */}
       <section className="about-section pb30">
