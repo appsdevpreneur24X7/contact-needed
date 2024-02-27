@@ -33,15 +33,14 @@ const index = () => {
             <div className="col-lg-12">
               <div className="main-title text-center">
               <h1 style={{
-                    fontSize : "3.5rem",
-                    // fontFamily : "poppins",
-                    fontWeight : '600',
+                    fontSize : "3.75rem",
+                    fontWeight : '700',
                     background: `linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)`, 
                     WebkitBackgroundClip:'text',
                     WebkitTextFillColor:`transparent`
                 }}>Our Mission ...</h1>
                 <h1 className="mt0" style={{
-                    fontSize : "2.5rem",
+                    fontSize : "3.75rem",
                     background: `linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)`, 
                     WebkitBackgroundClip:'text',
                     WebkitTextFillColor:`transparent`

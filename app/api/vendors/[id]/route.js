@@ -8,20 +8,6 @@ export async function PUT(request, { params }) {
   console.log('Vendor : PUT : name, category , city, area ', name, description, category , city, area);
   const vendorFound = await Vendor.findById(id);
 
-  /**
-   * if (vendorFound) {
-    vendorFound.name = name || vendorFound.name;
-    vendorFound.description = description || vendorFound.description;
-    vendorFound.city = city || vendorFound.city;
-    vendorFound.area = city || vendorFound.area;
-    vendorFound.category = city || vendorFound.category;
-    const updatedVendor = await vendorFound.save();
-    res.status(202).json(updatedVendor);
-  } else {
-    return next(new ErrorHandler(`Vendor not found with Id : ${id} , So Failed to Update.`,404));
-  }
-  */
-
   await connectDb();
   await Vendor.findByIdAndUpdate(id, { name, description ,category , city, area });
   return NextResponse.json({ message: "Vender updated" }, { status: 200 });

@@ -13,8 +13,8 @@ const MobileMenu = () => {
               width={40}
               height={45}
               className="nav_logo_img contain mt20"
-              src="/assets/images/cn-logo.jpg"
-              alt="cn-logo.jpg"
+              src="/assets/images/logo/cn-logo-250.png"
+              alt="cn-logo-250.png"
             />
             <span className="mt20">Contact Needed</span>
           </div>

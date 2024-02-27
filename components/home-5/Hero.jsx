@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="home-one home5-overlay home5_bgi5 parallax">
       <div className="container">
         <div className="row posr">
-          <div className="col-lg-7">
+          <div className="col-lg-12">
             <div className="home_content home5">
               <div className="home-text home5">
                 <h2 className="fz55">Contact Needed </h2>
@@ -23,11 +23,11 @@ const Hero = () => {
           </div>
           {/* End .col */}
 
-          <div className="col-lg-5">
+          {/* <div className="col-lg-5">
             <div className="home_content home5 style2">
               <GlobalFilter className=" home5_advanced_search_form d-block " />
             </div>
-          </div>
+          </div> */}
           {/* End .col */}
         </div>
       </div>

@@ -20,7 +20,7 @@ const index = () => {
       <PopupSignInUp />
 
       {/* <!-- Inner Page Breadcrumb --> */}
-      <BreadCrumbBanner />
+      {/* <BreadCrumbBanner /> */}
 
       {/* <!-- Our Terms & Conditions --> */}
       <section className="our-terms bgc-f7">

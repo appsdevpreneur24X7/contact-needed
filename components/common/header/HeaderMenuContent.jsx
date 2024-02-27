@@ -101,17 +101,6 @@ const HeaderMenuContent = ({ float = "" }) => {
     },
   ];
 
-  // const blog = [
-  //   { id: 1, name: "Blog List 1", routerPath: "/blog-list-1" },
-  //   { id: 2, name: "Blog List 2", routerPath: "/blog-list-2" },
-  //   { id: 3, name: "Blog List 3", routerPath: "/blog-list-3" },
-  //   {
-  //     id: 4,
-  //     name: "Blog Details",
-  //     routerPath: "/blog-details",
-  //   },
-  // ];
-
   const pages = [
     { id: 1, name: "Membership", routerPath: "/membership" },
     { id: 2, name: "Register", routerPath: "/register" },

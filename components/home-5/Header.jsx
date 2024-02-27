@@ -31,18 +31,18 @@ const Header = () => {
 
         <Link href="/" className="navbar_brand float-start dn-smd">
           <Image
-            width={40}
-            height={45}
+            width={80}
+            height={90}
             className="logo1 img-fluid contain"
-            src="/assets/images/cn-logo.jpg"
-            alt="cn-logo.jpg"
+            src="/assets/images/logo/cn-logo-250.png"
+            alt="cn-logo-250.png"
           />
           <Image
-            width={40}
-            height={45}
+            width={80}
+            height={90}
             className="logo2 img-fluid contain"
-            src="/assets/images/cn-logo.jpg"
-            alt="cn-logo.jpg"
+            src="/assets/images/logo/cn-logo-250.png"
+            alt="cn-logo-250.png"
           />
           <span>Contact Needed</span>
         </Link>

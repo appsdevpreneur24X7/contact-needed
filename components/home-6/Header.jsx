@@ -35,15 +35,15 @@ const Header = () => {
               width={40}
               height={45}
               className="logo1 img-fluid"
-              src="/assets/images/cn-logo.jpg"
-              alt="cn-logo.jpg"
+              src="/assets/images/logo/cn-logo-250.png"
+              alt="cn-logo-250.png"
             />
             <Image
               width={40}
               height={45}
               className="logo2 img-fluid"
-              src="/assets/images/cn-logo.jpg"
-              alt="cn-logo.jpg"
+              src="/assets/images/logo/cn-logo-250.png"
+              alt="cn-logo-250.png"
             />
             <span>Contact Needed</span>
           </Link>

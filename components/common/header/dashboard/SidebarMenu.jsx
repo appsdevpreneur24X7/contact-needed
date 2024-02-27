@@ -45,8 +45,8 @@ const SidebarMenu = () => {
             <Image
               width={40}
               height={45}
-              src="/assets/images/cn-logo.jpg"
-              alt="cn-logo.jpg"
+              src="/assets/images/logo/cn-logo-250.png"
+              alt="cn-logo-250.png"
             />
             <span>Contact Needed</span>
           </Link>

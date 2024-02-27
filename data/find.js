@@ -23,10 +23,29 @@ module.exports = [
     icon: "flaticon-building",
     text: `Specialized in preparing food, a dish, or a meal by mixing, combining, and heating the ingredients`,
   },
-  // {
-  //   id: 5,
-  //   title: "Driver",
-  //   icon: "flaticon-building",
-  //   text: `Specialized in driving cars in inter city, intra city`,
-  // },
+  {
+    id: 5,
+    title: "Driver",
+    icon: "flaticon-building",
+    text: `Specialized in driving cars in inter city, intra city`,
+  },
+  {
+    id: 6,
+    title: "Beauty Parlour",
+    icon: "flaticon-building",
+    text: `Specialized in hairdressing, manicures, or other cosmetic treatments`,
+  },
+  {
+    id: 7,
+    title: "Tailor",
+    icon: "flaticon-building",
+    text: `Expert in stiching fitted clothes such as suits, trousers, and jackets to fit`,
+  },
+  {
+    id: 8,
+    title: "Mechanic",
+    icon: "flaticon-building",
+    text: `Specialized in repairs and maintains vehicle engines and other machiner`,
+  },
+  
 ];
