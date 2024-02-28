@@ -16,7 +16,7 @@ const Listings = () => {
                 src={item.img}
                 alt={item.img}
               />
-              <div className="thmb_cntnt">
+              {/* <div className="thmb_cntnt">
                 <ul className="icon mb0">
                   <li className="list-inline-item">
                     <a href="#">
@@ -29,7 +29,7 @@ const Listings = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             {/* End .thumb */}
 
@@ -48,8 +48,8 @@ const Listings = () => {
                     href={`/listing-details-v1/${item.id}`}
                     className="fp_price"
                   >
-                    ${item.price}
-                    <small>/mo</small>
+                    {/**item.price*/}
+                    
                   </Link>
                 </div>
                 <p className="text-thm">{item.type}</p>

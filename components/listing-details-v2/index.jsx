@@ -34,12 +34,12 @@ const index = () => {
               <div className="listing_single_description2 mt30-767 mb30-767">
                 <div className="single_property_title">
                   <h2>Luxury Family Home</h2>
-                  <p>1421 San Pedro St, Bangalore, CA 90015</p>
+                  <p>KPHB St, Bangalore, CA 90015</p>
                 </div>
                 <div className="single_property_social_share style2 static-title">
                   <div className="price">
                     <h2>
-                      $13,000<small>/mo</small>
+                      $13,000
                     </h2>
                   </div>
                 </div>

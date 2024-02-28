@@ -71,7 +71,7 @@ const DetailsContent = () => {
         <h4 className="mb30">
           Location{" "}
           <small className="float-end">
-            1421 San Pedro St, Bangalore, CA 90015
+            KPHB St, Bangalore, CA 90015
           </small>
         </h4>
         <div className="property_video p0">

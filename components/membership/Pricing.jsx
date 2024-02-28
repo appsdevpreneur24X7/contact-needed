@@ -37,7 +37,7 @@ const Pricing = () => {
         <div className="col-sm-6 col-md-6 col-lg-4" key={item.id}>
           <div className="pricing_table">
             <div className="pricing_header">
-              <div className="price">{item.price} Rs</div>
+              <div className="price">{/**item.price*/} Rs</div>
               <h4>{item.title}</h4>
             </div>
             <div className="pricing_content">

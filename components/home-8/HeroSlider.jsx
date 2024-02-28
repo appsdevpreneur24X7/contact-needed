@@ -27,13 +27,10 @@ const HeroSlider = () => {
           price: "1300",
           type: "Cook",
           title: "Luxurious Cook",
-          location: `1421 San Pedro
+          location: `KPHB
           St, Bangalore, CA 90015`,
-          saleTag: ["Featured", "For Sale"],
+          saleTag: ["Featured"],
           itemDetails: [
-            { name: "Beds", number: "4" },
-            { name: "Baths", number: "2" },
-            { name: "SqFt", number: "5280" },
           ],
           posterAvatar: "/assets/images/property/pposter1.png",
           posterName: "Ali Tufan",
@@ -53,13 +50,10 @@ const HeroSlider = () => {
           price: "1300",
           type: "Villa",
           title: "Renovated Cook",
-          location: `1421 San Pedro
+          location: `KPHB
           St, Bangalore, CA 90015`,
-          saleTag: ["Featured", "For Rent"],
+          saleTag: ["Featured"],
           itemDetails: [
-            { name: "Beds", number: "4" },
-            { name: "Baths", number: "2" },
-            { name: "SqFt", number: "5280" },
           ],
           posterAvatar: "/assets/images/property/pposter1.png",
           posterName: "Ali Tufan",
@@ -79,13 +73,10 @@ const HeroSlider = () => {
           price: "1300",
           type: "Single Family Home",
           title: "Luxurious Cook",
-          location: `1421 San Pedro
+          location: `KPHB
           St, Bangalore, CA 90015`,
-          saleTag: ["Featured", "For Rent"],
+          saleTag: ["Featured"],
           itemDetails: [
-            { name: "Beds", number: "4" },
-            { name: "Baths", number: "2" },
-            { name: "SqFt", number: "5280" },
           ],
           posterAvatar: "/assets/images/property/pposter1.png",
           posterName: "Ali Tufan",
@@ -165,8 +156,8 @@ const HeroSlider = () => {
                                 href={`/listing-details-v1/${item.id}`}
                                 className="fp_price"
                               >
-                                ${item.price}
-                                <small>/mo</small>
+                                {/**item.price*/}
+                                
                               </Link>
                             </div>
                             <div className="fp_footer">

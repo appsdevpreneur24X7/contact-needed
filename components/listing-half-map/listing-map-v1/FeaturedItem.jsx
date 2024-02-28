@@ -133,8 +133,8 @@ const FeaturedItem = () => {
                 href={`/listing-details-v1/${item.id}`}
                 className="fp_price"
               >
-                ${item.price}
-                <small>/mo</small>
+                {/**item.price*/}
+                
               </Link>
             </div>
           </div>

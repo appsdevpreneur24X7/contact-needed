@@ -37,8 +37,8 @@ const TableData = () => {
                 {item.location}
               </p>
               <a className="fp_price text-thm" href="#">
-                ${item.price}
-                <small>/mo</small>
+                {/**item.price*/}
+                
               </a>
             </div>
           </div>

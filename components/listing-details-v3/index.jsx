@@ -26,7 +26,7 @@ const index = () => {
             <div className="col-lg-7 col-xl-8">
               <div className="single_property_title ">
                 <h2>Luxury Family Home</h2>
-                <p>1421 San Pedro St, Bangalore, CA 90015</p>
+                <p>KPHB St, Bangalore, CA 90015</p>
               </div>
             </div>
             <div className="col-lg-5 col-xl-4">
@@ -57,7 +57,7 @@ const index = () => {
                 </div>
                 <div className="price text-end tal-400">
                   <h2>
-                    $13,000<small>/mo</small>
+                    $13,000
                   </h2>
                 </div>
               </div>

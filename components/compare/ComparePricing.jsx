@@ -21,7 +21,7 @@ const ComparePricing = () => {
                     alt="1.jpg"
                   />
                   <div className="price">
-                    ${item.price}
+                    {/**item.price*/}
                     <span className="mnth">/mo</span>
                   </div>
                 </div>

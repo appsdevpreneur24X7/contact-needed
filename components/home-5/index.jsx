@@ -51,7 +51,7 @@ const index = () => {
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center mb40">
                 <h2>Featured Classifieds</h2>
-                <p>Handpicked properties by our team.</p>
+                <p>Handpicked Classifieds by our team.</p>
               </div>
             </div>
             <div className="col-lg-12">
@@ -105,7 +105,7 @@ const index = () => {
       </section>
 
       {/* <!-- Our Blog --> */}
-      <section className="our-blog bg-ptrn2 pb30">
+      {/* <section className="our-blog bg-ptrn2 pb30">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
@@ -119,7 +119,7 @@ const index = () => {
             <Blogs />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <!-- Start Call to Action --> */}
       <section className="start-partners bgc-thm pt50 pb50">

@@ -46,7 +46,7 @@ const ListingDynamicDetailsV2 = ({params}) => {
                   <div className="price">
                     <h2>
                       ${property.price}
-                      <small>/mo</small>
+                      
                     </h2>
                   </div>
                 </div>

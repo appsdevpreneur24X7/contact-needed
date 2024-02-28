@@ -47,14 +47,14 @@ const AgentDetailsDynamic = ({params}) => {
                         src={agent?.img}
                         alt={agent?.img}
                       />
-                      <div className="thmb_cntnt">
+                      {/* <div className="thmb_cntnt">
                         <ul className="tag mb0">
                           <li className="list-inline-item dn"></li>
                           <li className="list-inline-item">
                             <a href="#">{agent?.noOfListings} Listings</a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                     {/* End .thumb */}
 

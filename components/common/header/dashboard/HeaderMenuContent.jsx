@@ -164,32 +164,32 @@ const HeaderMenuContent = ({ float = "" }) => {
           name: "My Classifieds",
           routerPath: "/my-properties",
         },
-        {
-          name: "My Message",
-          routerPath: "/my-message",
-        },
-        {
-          name: "My Review",
-          routerPath: "/my-review",
-        },
-        {
-          name: "My Favourites",
-          routerPath: "/my-favourites",
-        },
+        // {
+        //   name: "My Message",
+        //   routerPath: "/my-message",
+        // },
+        // {
+        //   name: "My Review",
+        //   routerPath: "/my-review",
+        // },
+        // {
+        //   name: "My Favourites",
+        //   routerPath: "/my-favourites",
+        // },
         {
           name: "My Profile",
           routerPath: "/my-profile",
         },
+        // {
+        //   name: "My Package",
+        //   routerPath: "/my-package",
+        // },
+        // {
+        //   name: "My Saved Search",
+        //   routerPath: "/my-saved-search",
+        // },
         {
-          name: "My Package",
-          routerPath: "/my-package",
-        },
-        {
-          name: "My Saved Search",
-          routerPath: "/my-saved-search",
-        },
-        {
-          name: "Add Property",
+          name: "Add Classified",
           routerPath: "/create-listing",
         },
       ],

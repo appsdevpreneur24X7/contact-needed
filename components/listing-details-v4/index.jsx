@@ -39,7 +39,7 @@ const index = () => {
               <div className="col-md-7 col-lg-7 col-xl-8">
                 <div className="single_property_title multicolor_style mt30-767">
                   <h2>Luxury Family Home</h2>
-                  <p>1421 San Pedro St, Bangalore, CA 90015</p>
+                  <p>KPHB St, Bangalore, CA 90015</p>
                 </div>
               </div>
               <div className="col-md-5 col-lg-5 col-xl-4">

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Slider from "react-slick";
-import properties from "../../data/classifieds";
+import classifieds from "../../data/classifieds";
 import Image from "next/image";
 
 const FeaturedClassifieds = () => {
@@ -31,7 +31,7 @@ const FeaturedClassifieds = () => {
     ],
   };
 
-  let content = properties?.slice(0, 12)?.map((item) => (
+  let content = classifieds?.slice(0, 12)?.map((item) => (
     <div className="item" key={item.id}>
       <div className="feat_property">
         <div className="thumb">
@@ -52,7 +52,7 @@ const FeaturedClassifieds = () => {
             </ul>
             {/* End .tag */}
 
-            <ul className="icon mb0">
+            {/* <ul className="icon mb0">
               <li className="list-inline-item">
                 <a href="#">
                   <span className="flaticon-transfer-1"></span>
@@ -63,12 +63,12 @@ const FeaturedClassifieds = () => {
                   <span className="flaticon-heart"></span>
                 </a>
               </li>
-            </ul>
+            </ul> */}
             {/* End .icon */}
 
             <Link href={`/listing-details-v1/${item.id}`} className="fp_price">
-              ${item.price}
-              <small>/mo</small>
+              {/**item.price*/}
+              
             </Link>
           </div>
         </div>
@@ -85,7 +85,7 @@ const FeaturedClassifieds = () => {
               {item.location}
             </p>
 
-            <ul className="prop_details mb0">
+            {/* <ul className="prop_details mb0">
               {item.itemDetails.map((val, i) => (
                 <li className="list-inline-item" key={i}>
                   <a href="#">
@@ -93,11 +93,11 @@ const FeaturedClassifieds = () => {
                   </a>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
           {/* End .tc_content */}
 
-          <div className="fp_footer">
+          {/* <div className="fp_footer">
             <ul className="fp_meta float-start mb0">
               <li className="list-inline-item">
                 <Link href="/agent-v2">
@@ -114,7 +114,7 @@ const FeaturedClassifieds = () => {
               </li>
             </ul>
             <div className="fp_pdate float-end">{item.postedYear}</div>
-          </div>
+          </div> */}
           {/* End .fp_footer */}
         </div>
         {/* End .details */}

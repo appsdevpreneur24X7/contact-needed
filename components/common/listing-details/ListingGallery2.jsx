@@ -78,7 +78,7 @@ const ListingGallery2 = () => {
               </div>
               {/* End .row */}
 
-              <div className="single_property_social_share">
+              {/* <div className="single_property_social_share">
                 <div className="spss style2 mt10 text-right tal-400">
                   <ul className="mb0">
                     <li className="list-inline-item">
@@ -103,7 +103,7 @@ const ListingGallery2 = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
               {/* End .single_property_social_share */}
             </div>
             {/* End .col */}
