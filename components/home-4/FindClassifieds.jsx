@@ -1,5 +1,5 @@
 import Link from "next/link";
-import findClassifieds from "../../data/FindClassifieds";
+import findClassifieds from "../../data/findClassifieds";
 import Image from "next/image";
 
 const FindClassifieds = () => {
