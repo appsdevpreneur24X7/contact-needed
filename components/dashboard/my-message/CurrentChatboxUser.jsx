@@ -10,8 +10,8 @@ const CurrentChatboxUser = () => {
             width={45}
             height={45}
             className="img-fluid"
-            src="/assets/images/team/s5.jpg"
-            alt="s5.jpg"
+            src="/assets/images/team/s5.png"
+            alt="s5.png"
           />
           <div className="meta">
             <h5 className="name">Joanne Davies</h5>

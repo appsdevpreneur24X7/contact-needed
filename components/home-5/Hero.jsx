@@ -12,7 +12,6 @@ const Hero = () => {
               <div className="home-text home5">
                 <h2 className="fz55">Contact Needed </h2>
                 <p className="discounts_para fz18 color-white">
-                  
                 </p>
                 <h4>What are you looking for?</h4>
                 <ul className="mb0">
@@ -23,12 +22,6 @@ const Hero = () => {
           </div>
           {/* End .col */}
 
-          {/* <div className="col-lg-5">
-            <div className="home_content home5 style2">
-              <GlobalFilter className=" home5_advanced_search_form d-block " />
-            </div>
-          </div> */}
-          {/* End .col */}
         </div>
       </div>
       {/* End .container */}

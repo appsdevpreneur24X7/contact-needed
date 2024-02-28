@@ -40,7 +40,7 @@ const SingleUser = () => {
     },
     {
       id: 5,
-      img: "/assets/images/team/s5.jpg",
+      img: "/assets/images/team/s5.png",
       name: "Vincent Porter",
       meta: `I'm going to office.`,
       unreadMessage: "",

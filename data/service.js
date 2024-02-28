@@ -21,7 +21,7 @@ module.exports = [
   },
   {
     id: 5,
-    img: "/assets/images/service/5.jpg",
+    img: "/assets/images/service/5.png",
     title: "Redfin Unveils the Best Canadian Cities for Biking",
   },
   {

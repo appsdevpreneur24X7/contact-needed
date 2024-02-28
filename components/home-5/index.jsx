@@ -34,7 +34,7 @@ const index = () => {
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
                 <h2>Find Classifieds in These Cities</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Contact Needed in the below Cities.</p>
               </div>
             </div>
           </div>

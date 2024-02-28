@@ -1,5 +1,5 @@
 import Link from "next/link";
-import findClassifieds from "../../data/FindClassifieds";
+import findClassifieds from "../../data/findClassifieds";
 import Image from "next/image";
 
 const FindClassifieds = () => {
@@ -11,7 +11,7 @@ const FindClassifieds = () => {
             <div className="thumb">
               <Image
                 width={650}
-                height={352}
+                height={350}
                 className="img-fluid w100 h-100 cover"
                 src={item.img}
                 alt="pc1.jpg"
@@ -22,7 +22,7 @@ const FindClassifieds = () => {
                 <div className="left">
                   <h4>{item.name}</h4>
                 </div>
-                <p>{item.number} Properties</p>
+                <p>{item.number} Classifieds</p>
               </div>
             </div>
           </Link>

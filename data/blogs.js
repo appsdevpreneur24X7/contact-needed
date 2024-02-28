@@ -42,7 +42,7 @@ module.exports = [
   },
   {
     id: 5,
-    img: "/assets/images/blog/5.jpg",
+    img: "/assets/images/blog/5.png",
     postMeta: "Construction",
     title: `Redfin Ranks the Most Competitive Neighborhoods of 2022`,
     posterAvatar: "/assets/images/property/pposter1.png",

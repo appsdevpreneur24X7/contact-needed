@@ -77,7 +77,7 @@ module.exports = [
   },
   {
     id: 5,
-    img: "/assets/images/agency/5.jpg",
+    img: "/assets/images/agency/5.png",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },

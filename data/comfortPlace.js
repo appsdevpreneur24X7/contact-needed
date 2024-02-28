@@ -8,7 +8,7 @@ module.exports = [
   },
   {
     id: 2,
-    bgImg: "/assets/images/service/5.jpg",
+    bgImg: "/assets/images/service/5.png",
     icon: "flaticon-house-1",
     name: "Plumber",
     number: "07",

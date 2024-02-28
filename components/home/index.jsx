@@ -52,7 +52,7 @@ const Index = () => {
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
                 <h2>Find Classifieds in These Cities</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem  dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
           </div>

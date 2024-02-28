@@ -49,7 +49,7 @@ const Team = () => {
                 height={307}
                 className="img-fluid w100 cover h-100"
                 src={item.img}
-                alt="5.jpg"
+                alt="5.png"
               />
               <div className="overylay">
                 <ul className="social_icon">

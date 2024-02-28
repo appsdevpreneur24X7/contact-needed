@@ -1,31 +1,31 @@
 module.exports = [
   {
     id: 1,
-    img: "/assets/images/property/pc1.jpg",
-    name: "Hderabad",
+    img: "/assets/images/cities/hyd.jpg",
+    name: "Hyderabad",
     number: "24",
-    column: "col-lg-4 col-xl-4",
+    column: "col-lg-6 col-xl-6",
   },
   {
     id: 2,
-    img: "/assets/images/property/pc2.jpg",
+    img: "/assets/images/cities/blr.jpg",
     name: "Bangalore",
     number: "18",
-    column: "col-lg-8 col-xl-8",
+    column: "col-lg-6 col-xl-6",
   },
   {
     id: 3,
-    img: "/assets/images/property/pc3.jpg",
+    img: "/assets/images/cities/chn.jpg",
     name: "Chennai",
     number: "89",
-    column: "col-lg-8 col-xl-8",
+    column: "col-lg-6 col-xl-6",
   },
   {
     id: 4,
-    img: "/assets/images/property/pc4.jpg",
+    img: "/assets/images/cities/pun.jpg",
     name: "Pune",
     number: "47",
-    column: "col-lg-4 col-xl-4",
+    column: "col-lg-6 col-xl-6",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ module.exports = [
   },
   {
     id: 7,
-    img: "/assets/images/property/pc5.jpg",
+    img: "/assets/images/property/pc5.png",
     name: "Chennai",
     number: "89",
     column: "col-lg-4 col-xl-4",
@@ -120,7 +120,7 @@ module.exports = [
   },
   {
     id: 18,
-    img: "/assets/images/property/pc15.jpg",
+    img: "/assets/images/property/pc15.png",
     name: "Hderabad",
     number: "23",
     column: "",

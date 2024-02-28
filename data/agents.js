@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    img: "/assets/images/team/5.jpg",
+    img: "/assets/images/team/5.png",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
@@ -287,7 +287,7 @@ module.exports = [
   },
   {
     id: 15,
-    img: "/assets/images/team/15.jpg",
+    img: "/assets/images/team/15.png",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
