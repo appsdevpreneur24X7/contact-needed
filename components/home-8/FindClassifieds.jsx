@@ -25,6 +25,7 @@ const FindClassifieds = () => {
               <h4>{item.name}</h4>
               <p>{item.number} Properties</p>
             </div>
+            
           </Link>
         </div>
       ))}

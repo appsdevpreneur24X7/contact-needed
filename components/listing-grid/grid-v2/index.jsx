@@ -26,9 +26,9 @@ const index = () => {
       <section className="our-listing bgc-f7 pb30-991 mt85 md-mt0 ">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <BreadCrumb2 />
-            </div>
+            </div> */}
             {/* End .col */}
 
             <div className="col-lg-6 position-relative mobile-filter-menu">
@@ -53,7 +53,7 @@ const index = () => {
                 tabIndex="-1"
                 id="sidebarListing"
               >
-                <div className="offcanvas-header">
+                {/* <div className="offcanvas-header">
                   <h5 className="offcanvas-title">Advanced Search</h5>
                   <button
                     type="button"
@@ -61,12 +61,12 @@ const index = () => {
                     data-bs-dismiss="offcanvas"
                     aria-label="Close"
                   ></button>
-                </div>
+                </div> */}
                 {/* End .offcanvas-heade */}
 
-                <div className="offcanvas-body">
+                {/* <div className="offcanvas-body">
                   <SidebarListing2 />
-                </div>
+                </div> */}
               </div>
               {/* End mobile sidebar listing  */}
             </div>

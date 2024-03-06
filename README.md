@@ -48,3 +48,10 @@ Unlocking the Hidden Gems: Finding Incredible Classifieds Online
 1920 x 549
 1920 x 500
 2479 x 1500
+
+for Listing Classifieds : 
+listing-details-v1 
+listing-details-v2 
+listing-details-v3 
+listing-details-v4 
+

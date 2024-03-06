@@ -14,21 +14,11 @@ const HeaderMenuContent = ({ float = "" }) => {
   const listing = [
     {
       id: 1,
-      title: "Listing Grid",
+      title: "Classifieds",
       items: [
         {
-          name: "Grid v1",
-          routerPath: "/listing-grid-v1",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Listing Style",
-      items: [
-        {
-          name: "Parallax Style",
-          routerPath: "/parallax-style",
+          name: "All",
+          routerPath: "/listing-grid-v2",
         },
       ],
     },
@@ -37,7 +27,7 @@ const HeaderMenuContent = ({ float = "" }) => {
   const classified = [
     {
       id: 1,
-      title: "User Admin",
+      title: "Admin",
       items: [
         {
           name: "Dashboard",
@@ -57,28 +47,16 @@ const HeaderMenuContent = ({ float = "" }) => {
         },
       ],
     },
-    {
-      id: 2,
-      title: "Listing Single",
-      items: [
-        {
-          name: "Single V1",
-          routerPath: "/listing-details-v1",
-        },
-        {
-          name: "Single V2",
-          routerPath: "/listing-details-v2",
-        },
-        {
-          name: "Single V3",
-          routerPath: "/listing-details-v3",
-        },
-        {
-          name: "Single V4",
-          routerPath: "/listing-details-v4",
-        },
-      ],
-    },
+    // {
+    //   id: 2,
+    //   title: "Listing Single",
+    //   items: [
+    //     {
+    //       name: "Single V1",
+    //       routerPath: "/listing-details-v1",
+    //     },
+    //   ],
+    // },
   ];
 
   const pages = [
