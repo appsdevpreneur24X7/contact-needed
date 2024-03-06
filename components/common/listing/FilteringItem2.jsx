@@ -5,12 +5,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addStatusType } from "../../../features/filter/filterSlice";
 import {
-  addAmenities,
-  addBathrooms,
-  addBedrooms,
   addStatus,
-  addYearBuilt,
-  resetAmenities,
 } from "../../../features/properties/propertiesSlice";
 import { v4 as uuidv4 } from "uuid";
 
@@ -45,29 +40,14 @@ const FilteringItem2 = () => {
     { id: uuidv4(), name: "Window Coverings" },
   ]);
 
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
 
 
 
   // status
   useEffect(() => {
-    dispath(addStatus(getStatus));
-  }, [dispath, getStatus]);
-
-  // bathroom
-  useEffect(() => {
-    dispath(addBathrooms(getBathroom));
-  }, [dispath, getBathroom]);
-
-  // bedroom
-  useEffect(() => {
-    dispath(addBedrooms(getBedroom));
-  }, [dispath, getBedroom]);
-
-  // built years
-  useEffect(() => {
-    dispath(addYearBuilt(getBuiltYear));
-  }, [dispath, getBuiltYear]);
+    dispatch(addStatus(getStatus));
+  }, [dispatch, getStatus]);
 
   // clear filter
   const clearHandler = () => {
@@ -76,37 +56,7 @@ const FilteringItem2 = () => {
 
   const clearAllFilters = () => {
     setStatus("");
-    setBathroom("");
-    setBedroom("");
-    setBuiltYear("");
-    dispath(resetAmenities());
-    dispath(addStatusType(""));
-    clearAdvanced();
-  };
-
-  // clear advanced
-  const clearAdvanced = () => {
-    const changed = getAdvanced.map((item) => {
-      item.isChecked = false;
-      return item;
-    });
-    setAdvanced(changed);
-  };
-
-  // add advanced
-  const advancedHandler = (id) => {
-    const data = getAdvanced.map((feature) => {
-      if (feature.id === id) {
-        if (feature.isChecked) {
-          feature.isChecked = false;
-        } else {
-          feature.isChecked = true;
-        }
-      }
-      return feature;
-    });
-
-    setAdvanced(data);
+    dispatch(addStatusType(""));
   };
 
   return (
@@ -125,8 +75,8 @@ const FilteringItem2 = () => {
                         id={feature.id}
                         value={feature.name}
                         checked={feature.isChecked || false}
-                        onChange={(e) => dispath(addAmenities(e.target.value))}
-                        onClick={() => advancedHandler(feature.id)}
+                        // onChange={(e) => dispatch(addAmenities(e.target.value))}
+                        // onClick={() => advancedHandler(feature.id)}
                       />
                       <label className="form-check-label" htmlFor={feature.id}>
                         {feature.name}

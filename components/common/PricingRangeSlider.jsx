@@ -8,7 +8,7 @@ import { addPrice } from "../../features/properties/propertiesSlice";
 
 const RangeSlider = () => {
   const [price, setPrice] = useState({ value: { min: 500, max: 20000 } });
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
 
   const handleOnChange = (value) => {
     setPrice({ value });
@@ -16,13 +16,13 @@ const RangeSlider = () => {
 
   // price add to state
   useEffect(() => {
-    dispath(
+    dispatch(
       addPrice({
         min: price.value.min,
         max: price.value.max,
       })
     );
-  }, [dispath, price]);
+  }, [dispatch, price]);
 
   return (
     <div className="nft__filter-price tp-range-slider tp-range-slider-dark mb-20">

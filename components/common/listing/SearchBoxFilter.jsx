@@ -32,13 +32,13 @@ const SearchBoxFilter = () => {
     { id: uuidv4(), name: "Window Coverings" },
   ]);
 
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
 
 
   // keyword
   useEffect(() => {
-    dispath(addKeyword(getKeyword));
-  }, [dispath, getKeyword]);
+    dispatch(addKeyword(getKeyword));
+  }, [dispatch, getKeyword]);
 
   // clear filter
   const clearHandler = () => {

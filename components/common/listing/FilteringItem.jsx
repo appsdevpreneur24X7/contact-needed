@@ -8,19 +8,10 @@ import {
   addStatusType,
 } from "../../../features/filter/filterSlice";
 import {
-  addAmenities,
-  addAreaMax,
-  addAreaMin,
-  addBathrooms,
-  addBedrooms,
-  addGarages,
+  
   addKeyword,
   addLocation,
-  addPrice,
-  addPropertyType,
   addStatus,
-  addYearBuilt,
-  resetAmenities,
 } from "../../../features/properties/propertiesSlice";
 import PricingRangeSlider from "../../common/PricingRangeSlider";
 import { v4 as uuidv4 } from "uuid";
@@ -31,26 +22,13 @@ const FilteringItem = () => {
     keyword,
     location,
     status,
-    propertyType,
-    bathrooms,
-    bedrooms,
-    garages,
-    yearBuilt,
-    area,
-    amenities,
   } = useSelector((state) => state.properties);
 
   // input state
   const [getKeyword, setKeyword] = useState(keyword);
   const [getLocation, setLocation] = useState(location);
   const [getStatus, setStatus] = useState(status);
-  const [getPropertiesType, setPropertiesType] = useState(propertyType);
-  const [getBathroom, setBathroom] = useState(bathrooms);
-  const [getBedroom, setBedroom] = useState(bedrooms);
-  const [getGarages, setGarages] = useState(garages);
-  const [getBuiltYear, setBuiltYear] = useState(yearBuilt);
-  const [getAreaMin, setAreaMin] = useState(area.min);
-  const [getAreaMax, setAreaMax] = useState(area.max);
+
 
   // advanced state
   const [getAdvanced, setAdvanced] = useState([
@@ -71,108 +49,26 @@ const FilteringItem = () => {
     { id: uuidv4(), name: "Window Coverings" },
   ]);
 
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
 
 
 
   // keyword
   useEffect(() => {
-    dispath(addKeyword(getKeyword));
-  }, [dispath, getKeyword]);
+    dispatch(addKeyword(getKeyword));
+  }, [dispatch, getKeyword]);
 
   // location
   useEffect(() => {
-    dispath(addLocation(getLocation));
-  }, [dispath, getLocation]);
+    dispatch(addLocation(getLocation));
+  }, [dispatch, getLocation]);
 
   // status
   useEffect(() => {
-    dispath(addStatus(getStatus));
-  }, [dispath, getStatus]);
+    dispatch(addStatus(getStatus));
+  }, [dispatch, getStatus]);
 
-  // properties type
-  useEffect(() => {
-    dispath(addPropertyType(getPropertiesType));
-  }, [dispath, getPropertiesType]);
-
-  // bathroom
-  useEffect(() => {
-    dispath(addBathrooms(getBathroom));
-  }, [dispath, getBathroom]);
-
-  // bedroom
-  useEffect(() => {
-    dispath(addBedrooms(getBedroom));
-  }, [dispath, getBedroom]);
-
-  // garages
-  useEffect(() => {
-    dispath(addGarages(getGarages));
-  }, [dispath, getGarages]);
-
-  // built years
-  useEffect(() => {
-    dispath(addYearBuilt(getBuiltYear));
-  }, [dispath, getBuiltYear]);
-
-  // area min
-  useEffect(() => {
-    dispath(dispath(addAreaMin(getAreaMin)));
-  }, [dispath, getAreaMin]);
-
-  // area max
-  useEffect(() => {
-    dispath(dispath(addAreaMax(getAreaMax)));
-  }, [dispath, getAreaMax]);
-
-  // clear filter
-  const clearHandler = () => {
-    clearAllFilters();
-  };
-
-  const clearAllFilters = () => {
-    setKeyword("");
-    setLocation("");
-    setStatus("");
-    setPropertiesType("");
-    dispath(addPrice({ min: 10000, max: 20000 }));
-    setBathroom("");
-    setBedroom("");
-    setBedroom("");
-    setGarages("");
-    setBuiltYear("");
-    setAreaMin("");
-    setAreaMax("");
-    dispath(resetAmenities());
-    dispath(addStatusType(""));
-    dispath(addFeatured(""));
-    clearAdvanced();
-  };
-
-  // clear advanced
-  const clearAdvanced = () => {
-    const changed = getAdvanced.map((item) => {
-      item.isChecked = false;
-      return item;
-    });
-    setAdvanced(changed);
-  };
-
-  // add advanced
-  const advancedHandler = (id) => {
-    const data = getAdvanced.map((feature) => {
-      if (feature.id === id) {
-        if (feature.isChecked) {
-          feature.isChecked = false;
-        } else {
-          feature.isChecked = true;
-        }
-      }
-      return feature;
-    });
-
-    setAdvanced(data);
-  };
+ 
 
   return (
     <ul className="sasw_list mb0">
@@ -218,12 +114,8 @@ const FilteringItem = () => {
               value={getStatus}
             >
               <option value="">Status</option>
-              <option value="apartment">Cook</option>
-              <option value="bungalow">Bungalow</option>
-              <option value="condo">Condo</option>
-              <option value="house">House</option>
-              <option value="land">Land</option>
-              <option value="single family">Single Family</option>
+              <option value="Available">Available</option>
+             
             </select>
           </div>
         </div>
@@ -232,7 +124,7 @@ const FilteringItem = () => {
 
       <li>
         <div className="search_option_two">
-          <div className="candidate_revew_select">
+          {/* <div className="candidate_revew_select">
             <select
               onChange={(e) => setPropertiesType(e.target.value)}
               className="selectpicker w100 show-tick form-select"
@@ -241,12 +133,8 @@ const FilteringItem = () => {
               <option value="">Contact Type</option>
               <option value="apartment">Cook</option>
               <option value="bungalow">Bungalow</option>
-              <option value="condo">Condo</option>
-              <option value="house">House</option>
-              <option value="land">Land</option>
-              <option value="single family">Single Family</option>
             </select>
-          </div>
+          </div> */}
         </div>
       </li>
       {/* End li */}
@@ -254,7 +142,7 @@ const FilteringItem = () => {
       <li>
         <div className="search_option_button">
           <button
-            onClick={clearHandler}
+            onClick={()=>console.log('Clear Handler Logic ')}
             type="button"
             className="btn btn-block btn-thm w-100"
           >

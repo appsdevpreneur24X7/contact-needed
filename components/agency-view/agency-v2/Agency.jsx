@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Agency = () => {
   const { listen } = useSelector((state) => state.agent) || {};
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
 
   let content = agencyContent
     .slice(0, 6)
@@ -94,8 +94,8 @@ const Agency = () => {
     ));
 
   useEffect(() => {
-    dispath(addAgentItemLength(content.length));
-  }, [dispath, content]);
+    dispatch(addAgentItemLength(content.length));
+  }, [dispatch, content]);
   return <>{content}</>;
 };
 

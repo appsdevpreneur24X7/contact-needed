@@ -35,7 +35,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <ul className="list-unstyled">
             <li>
-              <a href="mailto:hello@Contact Needed.com">hello@Contact Needed.com</a>
+              <a href="mailto:hello@contactneeded.com">hello@contactneeded.com</a>
             </li>
             <li>
               <a href="#">Opp ISB School</a>
