@@ -11,6 +11,17 @@ const Footer = () => {
           <p>
           The biggest part of our digital transformation is changing the way we think.
           </p>
+          <p>
+            &copy; {new Date().getFullYear()} by{" "}
+            <a
+              href=""
+              target="_blank"
+              rel="noreferrer"
+            >
+             novellogiks.com
+            </a>
+            . All rights reserved.
+          </p>
         </div>
       </div>
       {/* End .col */}
