@@ -53,8 +53,8 @@ const index = () => {
 
                 <div className="col-lg-12 mb10">
                   <div className="breadcrumb_content style2">
-                    <h2 className="breadcrumb_title">Add New Property</h2>
-                    <p>We are glad to see you again!</p>
+                    <h2 className="breadcrumb_title">Add New Classified</h2>
+                    <p>We are glad to see you again....</p>
                   </div>
                 </div>
                 {/* End .col */}
@@ -63,7 +63,7 @@ const index = () => {
                   <div className="my_dashboard_review">
                     <div className="row">
                       <div className="col-lg-12">
-                        <h3 className="mb30">Create Listing</h3>
+                        <h3 className="mb30">New Classified</h3>
                       </div>
 
                       <CreateList />
@@ -80,22 +80,9 @@ const index = () => {
                   </div>
                   <div className="my_dashboard_review mt30">
                     <div className="col-lg-12">
-                      <h3 className="mb30">Detailed Information</h3>
-                    </div>
-                    <DetailedInfo />
-                  </div>
-                  <div className="my_dashboard_review mt30">
-                    <div className="col-lg-12">
-                      <h3 className="mb30">Property media</h3>
+                      <h3 className="mb30">Classified media</h3>
                     </div>
                     <PropertyMediaUploader />
-                  </div>
-                  <div className="my_dashboard_review mt30">
-                    <div className="col-lg-12">
-                      <h3 className="mb30">Floor Plans</h3>
-                      <button className="btn admore_btn mb30">Add More</button>
-                    </div>
-                    <FloorPlans />
                   </div>
                 </div>
                 {/* End .col */}
@@ -105,7 +92,7 @@ const index = () => {
               <div className="row mt50">
                 <div className="col-lg-12">
                   <div className="copyright-widget text-center">
-                    <p>© 2024 Find Classifieds near you.</p>
+                    <p>© 2024 contactneeded.com.  Find Classifieds near you.</p>
                   </div>
                 </div>
               </div>
