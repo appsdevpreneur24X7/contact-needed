@@ -1,9 +1,5 @@
-import CallToAction from "../common/CallToAction";
-import CopyrightFooter from "../common/footer/CopyrightFooter";
 import Footer from "../common/footer/Footer";
 import MobileMenu from "../common/header/MobileMenu";
-import Partners from "../common/Partners";
-import Blogs from "../common/Blogs";
 import FeaturedClassifieds from "./FeaturedClassifieds";
 import FindClassifieds from "./FindClassifieds";
 import Header from "./Header";
@@ -78,44 +74,12 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* <!-- Our Blog --> */}
-      {/* <section className="our-blog bgc-f7 pb30">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Articles & Tips</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <Blogs />
-          </div>
-        </div>
-      </section> */}
-
-      {/* <!-- Start Call to Action --> */}
-      <section className="start-partners bgc-thm pt50 pb50">
-        <div className="container">
-          <CallToAction />
-        </div>
-      </section>
-
       {/* <!-- Our Footer --> */}
       <section className="footer_one">
         <div className="container">
           <div className="row">
             <Footer />
           </div>
-        </div>
-      </section>
-
-      {/* <!-- Our Footer Bottom Area --> */}
-      <section className="footer_middle_area pt40 pb40">
-        <div className="container">
-          <CopyrightFooter />
         </div>
       </section>
     </>
