@@ -47,16 +47,7 @@ const HeaderMenuContent = ({ float = "" }) => {
         },
       ],
     },
-    // {
-    //   id: 2,
-    //   title: "Listing Single",
-    //   items: [
-    //     {
-    //       name: "Single V1",
-    //       routerPath: "/listing-details-v1",
-    //     },
-    //   ],
-    // },
+ 
   ];
 
   const pages = [
