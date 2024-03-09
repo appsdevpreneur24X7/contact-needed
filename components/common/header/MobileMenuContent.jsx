@@ -17,181 +17,27 @@ import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 
 const home = [
-  {
-    name: "Home 1",
-    routerPath: "/",
-  },
-  {
-    name: "Home 2",
-    routerPath: "/home-2",
-  },
-  {
-    name: "Home 3",
-    routerPath: "/home-3",
-  },
-  {
-    name: "Home 4",
-    routerPath: "/home-4",
-  },
-  {
-    name: "Home 5",
-    routerPath: "/home-5",
-  },
-  {
-    name: "Home 6",
-    routerPath: "/home-6",
-  },
-  {
-    name: "Home 7",
-    routerPath: "/home-7",
-  },
-  {
-    name: "Home 8",
-    routerPath: "/home-8",
-  },
-  {
-    name: "Home 9",
-    routerPath: "/home-9",
-  },
-  {
-    name: "Home 10",
-    routerPath: "/home-10",
-  },
+    
+  { id: 1, name: "About Us", routerPath: "/about-us" },
 ];
 
 const listing = [
   {
     id: 1,
-    title: "Listing Grid",
+    title: "Classifieds",
     items: [
       {
-        name: "Grid v1",
-        routerPath: "/listing-grid-v1",
-      },
-      {
-        name: "Grid v2",
+        name: "All",
         routerPath: "/listing-grid-v2",
-      },
-      {
-        name: "Grid v3",
-        routerPath: "/listing-grid-v3",
-      },
-      {
-        name: "Grid v4",
-        routerPath: "/listing-grid-v4",
-      },
-      {
-        name: "Grid v5",
-        routerPath: "/listing-grid-v5",
-      },
-      {
-        name: "Grid v6",
-        routerPath: "/listing-grid-v6",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Listing List",
-    items: [
-      {
-        name: "List V1",
-        routerPath: "/listing-list-v1",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Listing Style",
-    items: [
-      {
-        name: "Parallax Style",
-        routerPath: "/parallax-style",
-      },
-      {
-        name: "Slider Style",
-        routerPath: "/slider-style",
-      },
-      {
-        name: "Map Header",
-        routerPath: "/map-header",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Listing Half",
-    items: [
-      {
-        name: "Map V1",
-        routerPath: "/listing-map-v1",
-      },
-      {
-        name: "Map V2",
-        routerPath: "/listing-map-v2",
-      },
-      {
-        name: "Map V3",
-        routerPath: "/listing-map-v3",
-      },
-      {
-        name: "Map V4",
-        routerPath: "/listing-map-v4",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Agent View",
-    items: [
-      {
-        name: "Agent V1",
-        routerPath: "/agent-v1",
-      },
-      {
-        name: "Agent V2",
-        routerPath: "/agent-v2",
-      },
-      {
-        name: "Agent Details",
-        routerPath: "/agent-details",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Agencies View",
-    items: [
-      {
-        name: "Agencies V1",
-        routerPath: "/agency-v1",
-      },
-      {
-        name: "Agencies V2",
-        routerPath: "/agency-v2",
-      },
-      {
-        name: "Agencies Details",
-        routerPath: "/agency-details",
-      },
-    ],
-  },
-  {
-    id: 7,
-    title: "Create Listing",
-    items: [
-      {
-        name: "Create Listing",
-        routerPath: "/create-listing",
       },
     ],
   },
 ];
 
-const property = [
+const classified = [
   {
     id: 1,
-    title: "User Admin",
+    title: "Admin",
     items: [
       {
         name: "Dashboard",
@@ -211,77 +57,13 @@ const property = [
       },
     ],
   },
-  {
-    id: 2,
-    title: "Listing Single",
-    items: [
-      {
-        name: "Single V1",
-        routerPath: "/listing-details-v1",
-      },
-      {
-        name: "Single V2",
-        routerPath: "/listing-details-v2",
-      },
-      {
-        name: "Single V3",
-        routerPath: "/listing-details-v3",
-      },
-      {
-        name: "Single V4",
-        routerPath: "/listing-details-v4",
-      },
-    ],
-  },
-];
 
-const blog = [
-  { id: 1, name: "Blog List 1", routerPath: "/blog-list-1" },
-  { id: 2, name: "Blog List 2", routerPath: "/blog-list-2" },
-  { id: 3, name: "Blog List 3", routerPath: "/blog-list-3" },
-  {
-    id: 4,
-    name: "Blog Details",
-    routerPath: "/blog-details",
-  },
 ];
 
 const pages = [
-  {
-    name: "About Us",
-    routerPath: "/about-us",
-  },
-  {
-    name: "Gallery",
-    routerPath: "/gallery",
-  },
-  {
-    name: "Faq",
-    routerPath: "/faq",
-  },
-  {
-    name: "LogIn",
-    routerPath: "/login",
-  },
-  { name: "Compare", routerPath: "/compare" },
-  { name: "Membership", routerPath: "/membership" },
-
-  {
-    name: "Register",
-    routerPath: "/register",
-  },
-  {
-    name: "Service",
-    routerPath: "/service",
-  },
-  {
-    name: "404 Page",
-    routerPath: "/404",
-  },
-  {
-    name: "Terms & Conditions",
-    routerPath: "/terms",
-  },
+  { id: 1, name: "Membership", routerPath: "/membership" },
+  { id: 2, name: "Register", routerPath: "/register" },
+  { id: 3, name: "Terms & Conditions", routerPath: "/terms" },
 ];
 
 const MobileMenuContent = () => {
@@ -384,9 +166,9 @@ const MobileMenuContent = () => {
           {/* End Pages Listing */}
 
           <SubMenu
-            label="Property"
+            label="Classifieds"
             className={
-              property.some((parent) => {
+              classified.some((parent) => {
                 return parent.items.some(
                   (page) =>
                     page.routerPath?.split('/')[1] === pathname.split('/')[1] ||
@@ -397,7 +179,7 @@ const MobileMenuContent = () => {
                 : 'inactive-mobile-menu'
             }
           >
-            {property.map((item) => (
+            {classified.map((item) => (
               <SubMenu
               label={item.title}
                 className={
@@ -432,37 +214,7 @@ const MobileMenuContent = () => {
           {/* End Pages Property */}
 
           <SubMenu
-            label="Blog"
-            className={
-              blog.some(
-                (page) =>
-                  page.routerPath?.split('/')[1] === pathname.split('/')[1] 
-                  // page.routerPath?.split('/')[1] + "/[id]" === pathname.split('/')[1]
-              )
-                ? "parent-menu-active"
-                : 'inactive-mobile-menu'
-            }
-          >
-            {blog.map((val, i) => (
-              <MenuItem key={i}>
-                <div
-                  onClick={()=>router.push(val.routerPath)}
-                  className={
-                    pathname?.split('/')[1] === val.routerPath?.split('/')[1] 
-                    // val.routerPath + "/[id]" === pathname.split('/')[1]
-                      ? "ui-active"
-                      : 'inactive-mobile-menu'
-                  }
-                >
-                  {val.name}
-                </div>
-              </MenuItem>
-            ))}
-          </SubMenu>
-          {/* End pages Blog */}
-
-          <SubMenu
-            label="Pages"
+            label="Membership"
             className={
               pages.some((page) => page.routerPath?.split('/')[1] === pathname.split('/')[1])
                 ? "parent-menu-active"

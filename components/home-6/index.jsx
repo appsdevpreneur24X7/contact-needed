@@ -169,13 +169,6 @@ const index = () => {
           </div>
         </div>
       </section>
-
-      {/* <!-- Our Footer Bottom Area --> */}
-      <section className="footer_middle_area home6 pt30 pb30">
-        <div className="container">
-          <CopyrightFooter />
-        </div>
-      </section>
     </>
   );
 };

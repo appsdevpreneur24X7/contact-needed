@@ -13,7 +13,7 @@ const Hero = () => {
                 <h2 className="fz55">Contact Needed </h2>
                 <p className="discounts_para fz18 color-white">
                 </p>
-                <h4>What are you looking for?</h4>
+                <h4>What are you looking for</h4>
                 <ul className="mb0">
                   <LookingItem />
                 </ul>

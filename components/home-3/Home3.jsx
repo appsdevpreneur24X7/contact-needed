@@ -135,13 +135,6 @@ const Home3 = () => {
           </div>
         </div>
       </section>
-
-      {/* <!-- Our Footer Bottom Area --> */}
-      <section className="footer_middle_area home3 pt30 pb30">
-        <div className="container-fluid">
-          <CopyrightFooter />
-        </div>
-      </section>
     </>
   );
 };
